@@ -1,0 +1,14 @@
+@import './movie.css';
+@import './movieList.css';
+@import './selectedMovie.css';
+
+body
+{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}

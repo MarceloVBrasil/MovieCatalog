@@ -1,0 +1,54 @@
+.selectedMovie--movie
+{
+    display: flex;
+    gap: 10px;
+    transition: 300ms;
+}
+
+.selectedMovie--movie img
+{
+    width: 300px;
+    height: 450px;
+}
+
+.selectedMovie--video
+{
+    width: 800px !important;
+    height: 460px !important;
+    transition: 300ms;
+}
+
+.selectedMovie--plot
+{
+    max-width: 1150px;
+}
+
+@media screen and (max-width: 970px)
+{
+    .selectedMovie--movie img
+    {        
+        width: 200px;
+        height: 300px;
+    }
+
+    .selectedMovie--video
+    {
+        width: 550px !important;
+        height: 300px !important;
+    }
+}
+
+@media screen and (max-width: 700px)
+{
+    .selectedMovie--movie img
+    {      
+        display: none;
+    }
+
+    .selectedMovie--video
+    {
+        max-width: 90%;
+        max-height: 10%;
+        margin: 5%
+    }
+}
