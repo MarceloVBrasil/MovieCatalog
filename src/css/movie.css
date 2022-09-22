@@ -1,0 +1,29 @@
+.movie--starIcon
+{
+    color: yellow;
+    font-size: 13px;
+    margin: 10px 0 5px 5px;
+}
+
+.movie--rating
+{
+    display: flex;
+}
+
+.movie--container
+{
+    background-color: hsl(0, 0%, 10%);
+    width: 207px;
+    height: 400px;
+    border-radius: 3px;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 680px) 
+{
+    .movie--container
+    {
+        width: 150px;
+        height: 315px;
+    }
+}

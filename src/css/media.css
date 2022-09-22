@@ -1,0 +1,8 @@
+@media screen and (max-width: 970px)
+{
+    .selectedMovie--movie img
+    {
+        height: 300px;
+        width: 200px;
+    }
+}
