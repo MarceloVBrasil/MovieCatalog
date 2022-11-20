@@ -12,3 +12,17 @@ html
 {
     scroll-behavior: smooth;
 }
+
+.app--website-button
+{
+    padding: 0.5rem 1rem;
+    margin-left: 3rem;
+    cursor: pointer;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.app--website-button:hover
+{
+    border: 1px solid white;
+}
